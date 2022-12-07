@@ -453,7 +453,7 @@
                                 <span class="subtitle">(937) 337 7301 al 09</span>
                                 <span class="subtitle">(846) 282 0920</span>
                                 <span class="subtitle">(782) 825 6455 al 57</span>
-                                <span class="subtitle">(299) 924 8600 al 03</span>
+                                <span class="subtitle">(229) 924 8600 al 03</span>
                                 <span class="subtitle">(442) 476 2897</span>
                                 </h3>
                                 <br>
@@ -496,7 +496,7 @@
                                     <br>
                                     <abbr title="Phone Number"><strong>Poza Rica:</strong></abbr> (782) 825 6455 al 57
                                     <br>
-                                    <abbr title="Phone Number"><strong>Veracruz:</strong></abbr> (299) 924 8600 al 03
+                                    <abbr title="Phone Number"><strong>Veracruz:</strong></abbr> (229) 924 8600 al 03
                                     <br>
                                     <abbr title="Phone Number"><strong>Querétaro:</strong></abbr> (442) 476 2897
                                     <br>
