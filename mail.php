@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This example shows settings to use when sending via Google's Gmail servers.
  */
@@ -18,17 +19,17 @@ $mail->SMTPAuth = true;
 
 
 //variables
-$nom=strtoupper($_POST['name']);
-$correo=($_POST['email']);
-$phone=strtoupper($_POST['phone']);
-$asunto=strtoupper($_POST['subject']);
-$suc=strtoupper($_POST['sucursal']);
-$eq=strtoupper($_POST['equipo']);
-$otro=strtoupper($_POST['otro']);
-$serv=strtoupper($_POST['servicio']);
-$mens=strtoupper($_POST['message']);
+$nom = strtoupper($_POST['name']);
+$correo = ($_POST['email']);
+$phone = strtoupper($_POST['phone']);
+$asunto = strtoupper($_POST['subject']);
+$suc = strtoupper($_POST['sucursal']);
+$eq = strtoupper($_POST['equipo']);
+$otro = strtoupper($_POST['otro']);
+$serv = strtoupper($_POST['servicio']);
+$mens = strtoupper($_POST['message']);
 
-if($eq == 'OTRO'){
+if ($eq == 'OTRO') {
     $eq = $otro;
 }
 
@@ -77,7 +78,7 @@ $mail->Subject = "SOLICITO COTIZACIÓN";
 //$mail->AltBody = 'This is a plain-text message body';
 
 //Attach an image file
-//$mail->addAttachment('images/phpmailer_mini.png');
+//$mail->addAttachment('images/phpmailer_mini.webp');
 
 //send the message, check for errors
 /*if (!$mail->send()) {
@@ -95,8 +96,8 @@ $mail->addAddress('gerardo@forsis.com.mx', 'Gerardo Ramírez Sánchez');
 $mail->addAddress('roger@forsis.com.mx', 'Roger Garza Cantu');
 $mail->addAddress('operaciones1.ver@forsis.com.mx', 'Jose Luis Lopez Quiroz');
 $mail->addAddress('liliana@forsis.com.mx', 'Liliana Garza');
-$mail->addAddress('trafico1.tab@forsis.com.mx','Mario Peña');
-$mail->addAddress('trafico1.ver@forsis.com.mx','Alberto Lara');
+$mail->addAddress('trafico1.tab@forsis.com.mx', 'Mario Peña');
+$mail->addAddress('trafico1.ver@forsis.com.mx', 'Alberto Lara');
 
 //$mail->setFrom('contacto@visualrendervfx.com', 'contacto Visual Render VFX');
 $mail->From = 'cotizaciones@forsis.com.mx';
@@ -148,20 +149,20 @@ $mail->Body = "
                         <table border='1' cellpadding='5' cellspacing='0' width='100%' style='border-color: #666' rules='all'>
                             <tr>
                                 <th colspan='3'>
-                                    <strong>Nombre: ".$nom."</strong>
+                                    <strong>Nombre: " . $nom . "</strong>
                                 </th>    
                             </tr>
                             <tr>
-                                <td><strong>Telefono: </strong>".$phone."</td>
-                                <td> <strong>Correo: </strong> ".$correo."</td>
-                                <td><strong>Sucursal: </strong>".$suc."</td>
+                                <td><strong>Telefono: </strong>" . $phone . "</td>
+                                <td> <strong>Correo: </strong> " . $correo . "</td>
+                                <td><strong>Sucursal: </strong>" . $suc . "</td>
                             </tr>
                             <tr>
-                                <td colspan='2'><strong>Equipo: </strong>".$eq."</td>
-                                <td><strong>Servicio: </strong>".$serv."</td>
+                                <td colspan='2'><strong>Equipo: </strong>" . $eq . "</td>
+                                <td><strong>Servicio: </strong>" . $serv . "</td>
                             </tr>
                             <td colspan='3'>
-                                <strong>Mensaje: </strong>".$mens."
+                                <strong>Mensaje: </strong>" . $mens . "
                             </td>
                         </table>
                     </td>
@@ -218,6 +219,3 @@ $mail->msgHTML(file_get_contents('mailContact.html'), dirname(__FILE__));
 if ($mail->send()) {
     echo "succes";
 }
-
-
-

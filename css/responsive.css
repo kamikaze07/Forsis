@@ -375,7 +375,7 @@
 	}
 	#primary-menu>.container>ul>li.sub-menu>a,
 	#primary-menu>ul>li.sub-menu>a {
-		background-image: url(../images/icons/submenu.png);
+		background-image: url(../images/icons/submenu.webp);
 		background-position: right center;
 		background-repeat: no-repeat
 	}
@@ -1705,7 +1705,7 @@ only screen and (min-resolution:2dppx) {
 		background-image: url(../images/preloader-dark%402x.gif)
 	}
 	.widget_recent_comments li {
-		background-image: url(../images/icons/widget-comment%402x.png);
+		background-image: url(../images/icons/widget-comment%402x.webp);
 		background-size: 15px 26px
 	}
 	.widget_archive li a,
@@ -1717,11 +1717,11 @@ only screen and (min-resolution:2dppx) {
 	.widget_recent_comments li a,
 	.widget_recent_entries li a,
 	.widget_rss li a {
-		background-image: url(../images/icons/widget-link%402x.png);
+		background-image: url(../images/icons/widget-link%402x.webp);
 		background-size: 4px 20px
 	}
 	.dark .widget_recent_comments li {
-		background-image: url(../images/icons/widget-comment-dark%402x.png)
+		background-image: url(../images/icons/widget-comment-dark%402x.webp)
 	}
 	.dark .widget_archive li a,
 	.dark .widget_categories li a,
@@ -1732,7 +1732,7 @@ only screen and (min-resolution:2dppx) {
 	.dark .widget_recent_comments li a,
 	.dark .widget_recent_entries li a,
 	.dark .widget_rss li a {
-		background-image: url(../images/icons/widget-link-dark%402x.png)
+		background-image: url(../images/icons/widget-link-dark%402x.webp)
 	}
 }
 

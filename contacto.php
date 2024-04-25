@@ -51,8 +51,8 @@
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
                     <div id="logo">
-                        <a href="index" class="standard-logo" data-dark-logo="images/Logo-Forsis-100px.png"><img src="images/Logo-Forsis-100px.png" alt="Canvas Logo"></a>
-                        <a href="index" class="retina-logo" data-dark-logo="images/Logo-Forsis-100px.png"><img src="images/Logo-Forsis-100px.png" alt="Canvas Logo"></a>
+                        <a href="index" class="standard-logo" data-dark-logo="images/Logo-Forsis-100px.webp"><img src="images/Logo-Forsis-100px.webp" alt="Canvas Logo"></a>
+                        <a href="index" class="retina-logo" data-dark-logo="images/Logo-Forsis-100px.webp"><img src="images/Logo-Forsis-100px.webp" alt="Canvas Logo"></a>
                     </div>
 
                     <nav id="primary-menu">
@@ -463,7 +463,7 @@
                     </div>
 
                     <div class="col_half col_last">
-                        <a href="https://www.google.com.mx/maps/place/Fletes+y+Materiales+Fortis/@25.6019769,-99.9979415,286m/data=!3m1!1e3!4m5!3m4!1s0x8662d957e962112b:0x45bbf59a193885a2!8m2!3d25.6020928!4d-99.9983071?hl=es" target="_blank"><img src="images/maps.jpg" alt="Fletes y Materiales Forsis"></a>
+                        <a href="https://www.google.com.mx/maps/place/Fletes+y+Materiales+Fortis/@25.6019769,-99.9979415,286m/data=!3m1!1e3!4m5!3m4!1s0x8662d957e962112b:0x45bbf59a193885a2!8m2!3d25.6020928!4d-99.9983071?hl=es" target="_blank"><img src="images/maps.webp" alt="Fletes y Materiales Forsis"></a>
                     </div>
                     <div class="clear"></div>
 
@@ -511,8 +511,8 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="widget clearfix">
-                                <img src="images/Logo-Forsis-100px.png" alt="" class="footer-logo">
-                                <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+                                <img src="images/Logo-Forsis-100px.webp" alt="" class="footer-logo">
+                                <div style="background: url('images/world-map.webp') no-repeat center center; background-size: 100%;">
                                     <address>
                                         <strong>Matriz:</strong>
                                         <br>
@@ -630,7 +630,7 @@
             markers: [{
                 address: "Carr. Libre Monterrey - Reynosa, Sin Nombre de Col 43, Guadalupe, N.L.",
                 icon: {
-                    image: "images/icons/map-icon-red.png",
+                    image: "images/icons/map-icon-red.webp",
                     iconsize: [32, 39],
                     iconanchor: [32, 39]
                 }
